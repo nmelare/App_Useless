@@ -7,17 +7,18 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var backgroundImage: UIImageView!
     
+    var lamenArray = UIImage.animatedImageNamed("Comendo", duration: 1)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        backgroundImage.image = lamenArray
     }
-
-
 }
 

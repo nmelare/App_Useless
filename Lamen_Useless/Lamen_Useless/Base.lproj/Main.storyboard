@@ -15,16 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Frame 1" translatesAutoresizingMaskIntoConstraints="NO" id="th0-Kx-Y7S">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Frame 3" translatesAutoresizingMaskIntoConstraints="NO" id="th0-Kx-Y7S">
+                                <rect key="frame" x="0.0" y="2.5" width="414" height="896"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="th0-Kx-Y7S" firstAttribute="height" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" id="1fa-EB-X3B"/>
+                            <constraint firstItem="th0-Kx-Y7S" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="1fa-EB-X3B"/>
                             <constraint firstItem="th0-Kx-Y7S" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="2.5" id="C4O-po-FQm"/>
-                            <constraint firstItem="th0-Kx-Y7S" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ijS-cO-vRG"/>
+                            <constraint firstItem="th0-Kx-Y7S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ijS-cO-vRG"/>
                             <constraint firstItem="th0-Kx-Y7S" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="u9g-Km-xCL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -39,6 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Frame 1" width="320" height="520"/>
+        <image name="Frame 3" width="375" height="812"/>
     </resources>
 </document>
