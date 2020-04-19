@@ -13,12 +13,17 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var backgroundImage: UIImageView!
     
-    var lamenArray = UIImage.animatedImageNamed("Comendo", duration: 1)
+    var lamenArray = UIImage.animatedImageNamed("Comendo", duration: 0.8)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         backgroundImage.image = lamenArray
     }
+
 }
 
