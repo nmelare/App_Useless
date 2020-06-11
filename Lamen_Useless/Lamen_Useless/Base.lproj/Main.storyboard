@@ -15,13 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Comendo0" translatesAutoresizingMaskIntoConstraints="NO" id="th0-Kx-Y7S">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inicial0" translatesAutoresizingMaskIntoConstraints="NO" id="th0-Kx-Y7S">
                                 <rect key="frame" x="0.0" y="2.5" width="414" height="896"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Frame 3" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-fb-dtX">
-                                <rect key="frame" x="109" y="700" width="197" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -35,7 +31,6 @@
                     </view>
                     <connections>
                         <outlet property="backgroundImage" destination="th0-Kx-Y7S" id="QbA-JN-SP0"/>
-                        <outlet property="bowlImage" destination="L3Z-fb-dtX" id="6Yk-ZC-Y7L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -44,7 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Comendo0" width="375" height="812"/>
-        <image name="Frame 3" width="375" height="812"/>
+        <image name="Inicial0" width="375" height="812"/>
     </resources>
 </document>
